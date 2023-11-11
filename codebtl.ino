@@ -6,8 +6,8 @@
 #include <BlynkSimpleEsp32.h>
 float latitude , longitude;
 String  lat_str , lng_str;
-const char *ssid =  "CLB Dien Tu 5G";     // Enter your WiFi Name
-const char *pass =  "CLBDienTuPTIT"; // Enter your WiFi Password
+const char *ssid =  "hieptarn";     // Enter your WiFi Name
+const char *pass =  "12345678"; // Enter your WiFi Password
 char auth[] = "R9zA_74H_x42jMioypyyzhTbYRYUOlve"; 
 WidgetMap myMap(V0); 
 SH1106 display(0x3c, 21, 22);
